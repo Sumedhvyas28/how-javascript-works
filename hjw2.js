@@ -1,13 +1,16 @@
 // var and function expression 
 
-console.log(this)
-console.log(this)
-console.log(myfunction)
-console.log(fullname)
-function myfunction(){
+console.log(myfunction);
+
+var myfunction = function(){
     console.log("this is a function")
 }
-var firstName="S"
-var lastName="V"
-var fullname=firstName + " " +lastName
-console.log(fullname)
+console.log(myfunction);
+
+
+
+
+// LET AND CONST 
+// they are hoisted but are not initialized
+
+
